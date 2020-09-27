@@ -1,0 +1,54 @@
+h2{
+	color:blue;
+}
+
+
+
+p{	
+/*background-color:  red;*/
+font-size: 20px;
+
+
+
+
+}
+
+span{
+	/*5 times the size of container element*/
+	/*font-size: 5em;
+
+*/
+/*5 times the size of the font in the document*/
+font-size: 5rem;
+}
+
+
+
+
+
+
+
+.boxmodel{
+
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	/*OR*/
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+
+	/*OR*/
+	padding: top/bottoom  left/right
+	padding: 5px 20px;
+	
+	/*margin: 5px 20px 5px 20px;*/
+	/*OR*/
+	/*margin: top/bootom  left/right*/
+	margin: 5px 20px;
+	/*Content*/
+	width: 33px;
+	height: 55px;
+
+}

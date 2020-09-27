@@ -1,0 +1,89 @@
+/*Selector 
+{
+	Property: value;
+}*/
+*{
+	text-align: right;
+}
+body{
+	background-image: url(background1.jpg);
+	background-size: cover;
+}
+
+
+p{
+	/*color:#2A4F6E;*/
+	text-align:center;
+	border: 3px black;
+	border: 2px solid #04203777;
+	cursor: pointer;
+}
+
+
+p{
+	text-decoration: underline;
+	text-decoration: line-through;
+
+	text-transform: uppercase;
+	color: white;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+/*	font-family: Georgia;*/
+  /*  font-family: "Times New Roman, Georgia" ;*/
+    font-family: 'Rubik', sans-serif;
+    /*an user might not have the font*/
+    /*need to include the font-> google fonts*/
+
+
+}
+
+img{
+	float: left;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 150%;
+}
+
+li{	
+	list-style: none;
+	display: inline-block;
+}
+
+/*class*/
+.webtext{
+	border: 1px dashed blue;
+}
+.active{
+	color:red;
+}
+
+/*id*/
+
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+
+#div2{
+		background: rgba(255,0,255,0.2);
+
+}
+/* -> all elements*/
+
+/*element -> change css for element*/
+
+/*element,element2 -> change css for element AND element2*/
+
+/*element element2 -> change css for ALL element2 INSIDE element*/
+
+/*element > element2 -> select ALL element2 with PARENT = element*/
+/*element + element2 -> select ALL element2 AFTER element*/
+
+/*element + element2:hover -> select ALL element2 AFTER element APPLY when cursor passes trough*/
+
+/*:last-child -> apply only for the last child*/
+/*:first-child -> apply only for the first child*/
